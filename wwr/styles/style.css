@@ -1,13 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rock+Salt&display=swap');
+
+
 body{
     background-color: #d0ceba;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 .logo{
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 div{
@@ -19,6 +35,7 @@ nav a{
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover{
@@ -32,6 +49,9 @@ header{
 
 .home-title{
     color: #124559;
+    font-family: "Rock Salt", Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -42,15 +62,31 @@ main section{
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 .book, .join{
     background-color: #d0ceba;
     color: #124559;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
     background-color: #598392;
     color: #124559;
+}
+
+.card-img {
+    border: 10px solid #000000;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 
 #hero-img{
@@ -67,6 +103,8 @@ main section{
 
 .msg{
     background-color: #d0ceba;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2{
@@ -75,11 +113,15 @@ main section{
 
 .msg p{
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer{
     background-color: #d7be82;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p{
@@ -97,6 +139,10 @@ footer a:hover{
 
 footer a p:hover {
     text-decoration: underline;
+}
+
+.social img {
+    padding-top: 15px;
 }
 
 #background{
